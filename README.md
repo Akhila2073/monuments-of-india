@@ -1,2 +1,135 @@
 # monuments-of-india
 Basic html page with css ,It displays famous monuments of india with a small description about them,it will redirect to a link to know more information about different places.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monuments of inidia</title>
+</head>
+<style>
+    body,html{
+        height: 100%;
+        margin=0;
+    }
+    .bg{
+       height: 100%;
+       margin: 0;
+       font-size: 50px;
+       font-family:"Lato",sans-serif ;
+       font-weight: 400;
+       line-height: 1.8em;
+       color:black ;
+       opacity:90%;
+       background-image:url(https://media.istockphoto.com/id/464623500/photo/group-of-people-waving-indian-flags-in-back-lit.jpg?s=612x612&w=0&k=20&c=kpiw0XVr-Sjc0iaSKXVcXbP2otCdPaH0-N90avg2NIg= );
+       background-attachment: fixed;
+       background-repeat: no-repeat;
+       background-position: center;
+       height: 100%;
+       background-size: cover;
+
+    }
+    .center{
+        position: center;
+        margin-top:0%;
+        left=100%;
+        text-align: center;
+        
+        font-size: 300px;
+        color:black;
+
+    }
+    .taj{
+        background-color:black;
+    }
+    .container{
+        padding: 10px 20px;
+        text-align: center;
+        color: rgb(138, 155, 169);
+        
+    }
+    h1{
+        text-align: center;
+        color:black;
+        text-underline-position: above;
+        font-size: 100px;
+        text-align: bottom;
+    }
+    h3{
+        color: aliceblue;
+    }
+    .char{
+        background-color: black;
+    }
+    .qutub{
+        background-color: black;
+    }
+    .indiagate{
+        background-color: black;
+    }
+    .a{
+        font-size: small;
+        color: azure;
+        text-align: center;
+        margin-top: 30%;
+    }
+    h2{
+        color: beige;
+        font-size: 50px;
+        text-align: center;
+    }
+    a{
+        font-size: 50px;
+        color: antiquewhite;
+        text-align: center;
+    }
+    
+</style>
+<body>
+    <div class="bg">  
+        <div class="center"> <h1>Monuments of INDIA</h1></div>
+        <div class = "a">swipe up ^^ </div>
+    </div>
+    <div class = "taj">
+        <div class ="container">
+    <h2><b><a href ="https://en.wikipedia.org/wiki/Taj_Mahal#Exterior_decorations">Tajmahal!!</a></b></h2>
+    <center><img src="https://images.pexels.com/photos/3224533/pexels-photo-3224533.jpeg?auto=compress&cs=tinysrgb&w=400"alt="Tajmahal"></center>
+
+    <p>The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor, Shah Jahan (reigned from 1628 to 1658), to house the tomb of his favourite wife, Mumtaz Mahal. The tomb is the centrepiece of a 17-hectare (42-acre)complex, which includes a mosque and a guest house, and is set in formal gardens bounded on three sides by a crenellated wall.Construction of the mausoleum was essentially completed in 1643 but work continued on other phases of the project for another 10 years. The Taj Mahal complex is believed to have been completed in its entirety in 1653 at a cost estimated at the time to be around 32 million rupees, which in 2015 would be approximately 52.8 billion rupees (U.S. $827 million). The construction project employed some 20,000 artisans under the guidance of a board of architects led by the court architect to the emperor, Ustad Ahmad Lahauri.
+
+        The Taj Mahal was designated as a UNESCO World Heritage Site in 1983 for being “the jewel of Muslim art in India and one of the universally admired masterpieces of the world’s heritage”. It is regarded by many as the best example of Mughal architecture and a symbol of India’s rich history. The Taj Mahal attracts 7–8 million visitors a year. In 2007, it was declared a winner of the New 7 Wonders of the World (2000–2007) initiative.</p>
+        </div>
+    </div>
+    <div class ="char">
+        <h2><b><a href ="https://en.wikipedia.org/wiki/Charminar">Charminar!!</a></b></h2>
+        <center><img src="https://images.pexels.com/photos/12968097/pexels-photo-12968097.jpeg?auto=compress&cs=tinysrgb&w=600"alt="Charminar"height=700</center>
+        <div class="container">
+        <p>Charminar was built by Sultan Mohammed Quli Qutb Shah in 1591. It is said that this square shaped structure with four pillars and intricate carvings was built in honour of his wife, Bhagmati. However, the actual reason behind building Charminar is still not clear.
+
+            As per a popular belief, Charminar was built to acknowledge the elimination of the plague which had affected the entire city immensely during that era. It is believed that the Sultan had prayed for the end of this plague with which his people were suffering. Hence, as the plague ended, he built the charminar as a tribute to Allah. The four pillars are also said to be dedicated to the first four caliphs of Islam.
+            
+            It is also said that it was built in the memory of Prophet Muhammed’s son in law who lost his life at the battle of Karbala as its design is in the shape of Shiya Tazias. Some also believe that the location of Charminar is the place where Sultan had seen his then future wife Bahgmati for the first time.</p>
+
+    </div></div>
+    <div class="qutub">
+        <h2><b><a href ="https://en.wikipedia.org/wiki/Qutb_Minar">Qutub Minar!!</a></b></h2>
+        <center><img src="https://images.pexels.com/photos/2349168/pexels-photo-2349168.jpeg?auto=compress&cs=tinysrgb&w=600"alt="qutub minar"height=700</center>
+        <div class="container">
+        <p>This victory tower is a symbol of the synthesis of traditional Islamic architecture and Southwestern Asian design. Elizabeth Lambourn’s Islam Beyond Empires: Mosques and Islamic Landscapes in India and the Indian Ocean studies the introduction of Islam in South Asia and how the region influenced the Islamic religious architecture. These newly arrived Muslims from the Islamic West escaped the Mongol Empire and emigrated to India, where they constructed religious centers. The Qutb Minar serves as a central marker to these new Muslim communities as well as being a reminder of Islam's presence in the area.The architecture of the minaret varies greatly from that of the typical style and design of the mosques constructed in the Middle East. The style of these structures is heavily influenced by the local architecture such as the Indic temples. This affected the different materials, techniques, and decoration that were used in the construction of the Qutb Minar.</p>
+
+        </div>
+    </div>
+    <div class="indiagate">
+        <h2><b><a href = "https://en.wikipedia.org/wiki/India_Gate">India Gate!!</a></b></h2>
+
+        <a href="url"></a>
+        <center><img src ="https://images.pexels.com/photos/9371002/pexels-photo-9371002.jpeg?auto=compress&cs=tinysrgb&w=600"height=700</center>
+        <div class="container">
+            <p>Delhi’s Qutub Minar is a five-storied structure constructed over four centuries by a number of rulers. It was originally commissioned by Qutb-ud-din Aibak, who was the founder of the Delhi Sultanate, around 1192 as a victory tower. The minaret is named after him; although he wasn’t able to build it beyond the first story. His successor Shams-ud-din Iltutmish added three more floors to the structure in 1220. Its topmost story suffered damages in 1369 due to lightning. It was reconstructed by Firoz Shah Tughlaq, who added the fifth and final story to the tower while the entrance to Qutub Minar was built by Sher Shah Suri.
+
+            </p>
+        </div>
+    </div>
+</body>
+</html>
